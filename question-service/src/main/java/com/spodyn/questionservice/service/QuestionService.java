@@ -75,7 +75,7 @@ public class QuestionService {
         int right = 0;
 
         for(Response response : responses){
-            Question question = questionDao.findById(response.getId());
+            Question question = questionDao.findById(response.getId()).get();
             if(response.getResponse().equals(question.getRightAnswer())) {
                 right++;
             }
