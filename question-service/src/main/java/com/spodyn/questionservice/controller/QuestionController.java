@@ -1,11 +1,10 @@
-package com.example.quizzapp.controller;
+package com.spodyn.questionservice.controller;
 
-import com.example.quizzapp.model.Question;
-import com.example.quizzapp.service.QuestionService;
+import com.spodyn.questionservice.model.Question;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
+import com.spodyn.questionservice.service.QuestionService;
 import java.util.List;
 
 @RestController

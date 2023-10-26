@@ -1,7 +1,8 @@
-package com.example.quizzapp.service;
+package com.spodyn.questionservice.service;
 
-import com.example.quizzapp.model.Question;
-import com.example.quizzapp.dao.QuestionDao;
+
+import com.spodyn.questionservice.dao.QuestionDao;
+import com.spodyn.questionservice.model.Question;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

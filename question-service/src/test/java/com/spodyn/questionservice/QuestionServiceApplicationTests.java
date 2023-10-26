@@ -1,10 +1,10 @@
-package com.example.quizzapp;
+package com.spodyn.questionservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class QuizzappApplicationTests {
+class QuestionServiceApplicationTests {
 
 	@Test
 	void contextLoads() {

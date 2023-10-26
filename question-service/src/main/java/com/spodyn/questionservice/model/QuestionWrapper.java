@@ -1,4 +1,4 @@
-package com.example.quizzapp.model;
+package com.spodyn.questionservice.model;
 
 
 import lombok.Data;

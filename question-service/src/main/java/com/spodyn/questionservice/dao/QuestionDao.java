@@ -1,6 +1,7 @@
-package com.example.quizzapp.dao;
+package com.spodyn.questionservice.dao;
 
-import com.example.quizzapp.model.Question;
+
+import com.spodyn.questionservice.model.Question;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
