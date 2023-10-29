@@ -3,6 +3,7 @@ package com.spodyn.quizservice.controller;
 
 
 import com.spodyn.quizservice.model.QuestionWrapper;
+import com.spodyn.quizservice.model.QuizDto;
 import com.spodyn.quizservice.model.Response;
 import com.spodyn.quizservice.service.QuizService;
 import org.springframework.beans.factory.annotation.Autowired;

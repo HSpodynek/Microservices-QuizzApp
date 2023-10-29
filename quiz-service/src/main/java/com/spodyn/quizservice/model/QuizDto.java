@@ -1,4 +1,4 @@
-package com.spodyn.quizservice.controller;
+package com.spodyn.quizservice.model;
 
 import lombok.Data;
 
